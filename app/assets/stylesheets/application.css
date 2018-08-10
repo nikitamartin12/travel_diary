@@ -17,6 +17,11 @@ body{
   background-color: #EAEAEA;
   margin-top: 0;
 }
+
+h1 a {
+  text-decoration: none;
+}
+
 #content, .content-grid, .review-body, .page-image img{
   margin-left: auto;
   margin-right: auto;
@@ -37,7 +42,7 @@ body{
           background-color: #FFF;
     }
           .content-grid{
-            width: 70%;
+            width: 85%;
       }
             .content-block{
               display: inline-block;
