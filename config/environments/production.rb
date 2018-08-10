@@ -83,7 +83,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-  
+
   config.paperclip_defaults = {
    storage: :s3,
    s3_credentials: {
@@ -94,5 +94,5 @@ Rails.application.configure do
    }
  }
 
- config.active_storage.service = :amazon
+ # config.active_storage.service = :amazon
 end
